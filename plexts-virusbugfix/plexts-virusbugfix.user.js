@@ -91,7 +91,7 @@ function wrapper(plugin_info) {
                 data_arr = data_arr.sort((a, b) => a[0] - b[0]);
 
                 // ask for older chat when scrolling up
-                data = $.extend(data, { maxTimestampMs: data_arr[0][0] == data_arr[30][0] ? storageHash.oldestTimestamp - 1 : storageHash.oldestTimestamp });
+                data = $.extend(data, { maxTimestampMs: data_arr[0][0] == data_arr[20][0] ? storageHash.oldestTimestamp - 1 : storageHash.oldestTimestamp });
             } else {
                 // ask for newer chat
                 var min = storageHash.newestTimestamp;
