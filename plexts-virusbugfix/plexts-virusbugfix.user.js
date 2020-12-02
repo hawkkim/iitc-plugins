@@ -1,9 +1,12 @@
 // ==UserScript==
+// @author HawkBro
 // @id plexts-virusbugfix
 // @name IITC Plugin: Virus Log Bug Fix
 // @category Info
 // @version 0.0.1
-// @namespace https://tempuri.org/iitc/hello
+// @namespace      https://github.com/hawkkim/iitc-plugins
+// @updateURL      https://github.com/hawkkim/iitc-plugins/raw/main/plexts-virusbugfix/plexts-virusbugfix.user.js
+// @downloadURL    https://github.com/hawkkim/iitc-plugins/raw/main/plexts-virusbugfix/plexts-virusbugfix.user.js
 // @description 바이러스 로그가 있을때 지난 로그가 더 이상 불러와지지 않는 문제를 해결한 플러그인 입니다
 // @include http://www.ingress.com/intel*
 // @match http://www.ingress.com/intel*
