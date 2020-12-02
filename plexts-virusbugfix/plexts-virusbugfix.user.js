@@ -34,8 +34,6 @@ function wrapper(plugin_info) {
      */
     function setup() {
         window.chat.genPostData = function (channel, storageHash, getOlderMsgs) {
-            console.log('OVERRIDED');
-
             if (typeof channel !== 'string') {
                 throw new Error('API changed: isFaction flag now a channel string - all, faction, alerts');
             }
